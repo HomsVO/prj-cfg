@@ -1,4 +1,4 @@
-import cfgFile from './cfg.json';
+import cfgFile from './../../cfg.json';
 
 const config = {
     get : (dotPath) => {
