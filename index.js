@@ -1,8 +1,8 @@
-import cfgFile from './../../cfg.json';
+const cfgFile = require('./../../cfg.json');
 
 const config = {
     get : (dotPath) => {
-        const cfg = cfgFile[cfgFile.cfg.env];
+        const cfg = cfgFile[cfgFile.cfg.kit];
         let pathArray = dotPath.split('.');
         let currentItem = null;
         pathArray.forEach((item,index)=>{
