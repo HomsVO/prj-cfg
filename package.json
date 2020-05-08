@@ -1,6 +1,6 @@
 {
   "name": "prj-cfg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pack for easy access to the constants of the project",
   "main": "index.js",
   "scripts": {
