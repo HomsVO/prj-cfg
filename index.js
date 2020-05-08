@@ -12,7 +12,7 @@ const config = {
         return currentItem;
     },
     getAll : ()=>{
-        return cfgFile;
+        return cfgFile[cfgFile.cfg.kit];
     }
 }
 
